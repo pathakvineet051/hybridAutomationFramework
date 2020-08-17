@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "AmazonSearch" verbose = "10">
+<parameter name = "dataSheetName" value = "SearchValues"/>
+<listeners>
+	<listner class-name = "com.amz.testCases.testlistners" />
+</listeners>
+<test name = "Test">
+<classes>
+	<class>
+		<method>
+			<include name= ""/>
+		</method>
+	</class>
+</classes>
+
+</test>
+
+</suite>
