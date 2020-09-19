@@ -22,7 +22,7 @@ public class RunAmazonSearch extends TestBase {
 			AmazonHomePage az = new AmazonHomePage(driver);
 
 			driver.get(Variables.url);
-			az.searchItem("Watch");
+			// az.searchItem("Watch");
 
 		} catch (Exception e) {
 			// TODO: handle exception
